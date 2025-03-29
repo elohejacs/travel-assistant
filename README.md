@@ -1,13 +1,13 @@
 # Travel Assistant Application 🌍✈️
 
-A web application that helps users plan trips by providing real-time weather forecasts, currency exchange rates, packing suggestions, and local attractions using external APIs.
+Hello travelers and explorers. I extend my warmest greetings. Please be welcomed to Travel Assistant   —  your gateway to effortless exploration. Experience a world where planning, organizing, and discovering new destinations is seamless and intuitive. No matter where you are, unlock the beauty around you and journey with unparalleled ease.⭐
 
-**Demo Video**: [Watch Here](https://vimeo.com/1070587566/358b938515?ts=0&share=copy)
+**Demo Video🎥**: [Watch Here](https://vimeo.com/1070587566/358b938515?ts=0&share=copy)
 
 ## How to Access the Application
 
 ### 1. Via Load Balancer (Recommended)
-**URL**: http://3.92.205.154  
+**🟢URL**: http://3.92.205.154  
 This is the production environment where traffic is distributed between:
 - Web Server 1: `3.86.166.160:3000`
 - Web Server 2: `54.174.13.108:3000`
