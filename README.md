@@ -4,6 +4,26 @@ A web application that helps users plan trips by providing real-time weather for
 
 **Demo Video**: [Watch Here](https://vimeo.com/1070587566/358b938515?ts=0&share=copy)
 
+## How to Access the Application
+
+### 1. Via Load Balancer (Recommended)
+**URL**: http://3.92.205.154  
+This is the production environment where traffic is distributed between:
+- Web Server 1: `3.86.166.160:3000`
+- Web Server 2: `54.174.13.108:3000`
+
+### 2. Direct Server Access
+Access individual web servers directly:
+```bash
+# Web Server 1
+http://3.86.166.160:3000
+
+# Web Server 2 
+http://54.174.13.108:3000
+
+# Domain
+jacobel.tech:3000
+
 ## Features
 - 🌦️ **Weather Forecasts**: 5-day weather predictions with temperature and conditions
 - 💱 **Currency Conversion**: Real-time USD to EUR exchange rates
@@ -47,5 +67,5 @@ travel-assistant/
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/travel-assistant.git
+   git clone https://github.com/elohejacs/travel-assistant.git
    cd travel-assistant/server
