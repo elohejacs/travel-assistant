@@ -28,7 +28,6 @@ jacobel.tech:3000
 - 🌦️ **Weather Forecasts**: 5-day weather predictions with temperature and conditions
 - 💱 **Currency Conversion**: Real-time USD to EUR exchange rates
 - 🧳 **Packing Suggestions**: AI-generated packing lists based on weather conditions
-- 🏛️ **Local Attractions**: Top 5 tourist attractions near the destination
 - ⚖️ **Load Balanced Deployment**: Distributed across 2 web servers
 
 ## Technologies Used
